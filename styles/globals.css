@@ -1,9 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Exo 2", sans-serif;
+}
+.russo {
+  font-family: "Russo One", sans-serif;
 }
 
 a {
@@ -13,4 +19,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+@layer base {
+  .container {
+    @apply max-w-lg mx-auto px-2 py-4 md:py-12;
+  }
+  .light {
+    @apply bg-gray-200 text-slate-800;
+  }
+  .dark {
+    @apply bg-black text-white;
+  }
 }
