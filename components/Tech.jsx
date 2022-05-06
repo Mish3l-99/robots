@@ -15,21 +15,21 @@ const Tech = () => {
           </p>
         </div>
         <div className=" grid md:grid-cols-3 gap-1 p-4">
-          <div className="">
+          <div className="hover:scale-90 duration-700">
             <img
               className="h-[370px] w-full object-cover"
               src="/rob-1.jpg"
               alt="/"
             ></img>
           </div>
-          <div className="">
+          <div className="hover:scale-90 duration-700">
             <img
               className="h-[370px] w-full object-cover"
               src="/rob-2.jpg"
               alt="/"
             ></img>
           </div>
-          <div className="">
+          <div className="hover:scale-90 duration-700">
             <img
               className="h-[370px] w-full object-cover"
               src="/rob-3.jpg"
